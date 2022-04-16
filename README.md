@@ -2,6 +2,8 @@
 
 This is a project that will demonstrate how to implement google maps in flutter.
 
+Google Maps API 
+
 ## Tools used:
 
 
@@ -11,5 +13,3 @@ This is a project that will demonstrate how to implement google maps in flutter.
 
 [online documentation](https://flutter.dev/docs)
 
-test commit
-2nd test commit see if this works
