@@ -38,7 +38,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: const Text('Your Next Date'),
+          title: const Text('Google Maps API in Flutter'),
           backgroundColor: Colors.red[900],
         ),
         body: GoogleMap(
