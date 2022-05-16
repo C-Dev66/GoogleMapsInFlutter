@@ -1,4 +1,4 @@
-<img src="https://github.com/C-Dev66/RSVPGuestbookChatApp/blob/main/screenshots/SideBySide.png" alt="HomePage"/>
+<img src=""https://github.com/C-Dev66/GoogleMapsInFlutter/blob/main/screenshots/GoogleMapsAPI.png alt="GoogleMapsAPI"/>
 
 # GoogleMapsInFlutter
 
@@ -42,6 +42,10 @@ flutter create google_maps_in_flutter
 
 flutter pub add google_maps_flutter
 flutter pub add google_maps_flutter_web
+flutter pub add http
+flutter pub add json_serializable
+flutter pub add --dev_runner
+flutter pub run build_runner build --delete-conflicting-outputs
 ```
 
 > Configure for iOS platform & AndroidSDK
@@ -134,10 +138,17 @@ import GoogleMaps
 
 ## Summary
 
-Awesome introduction to Firebase, Cloud Firestore, & Security Rules. Really enjoyed this project and will seek to build more applications with their native database service. All around great experience, the future is bright for Flutter. Glad to be able to partaken in this revolutinary stack. 🤩🫶
+First time working with Google's Map API. The experience is plesant and quick to have a project running with working keys. From a google account you're able to register to Google Cloud Platform create a project and check out API keys for the respective techology. Each platform has to be registered in the correct manner or else the API will null.
+
+Placing restricitons on the API is necessary to deter mal practice.
+Being careful not to push a private key to a public repository is necessary.
+
+Ran into an issue where Googlemaps SDK will not run due being outdated
+Resolved with Flutter upgrade, Depency upgrade as well as podfile adjustment.
 
 For more information refer to the official documentation.
 
+- [Google Cloud Platform Docs](https://cloud.google.com/docs)
 - [Firebase Documentation](https://firebase.google.com/docs)
 - [Flutterfire](https://firebase.google.com/docs/flutter/setup?platform=ios)
 - [Google's awesome Flutter Youtube channel, Lots of great content here](https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw)
@@ -145,5 +156,5 @@ For more information refer to the official documentation.
 ---
 
 ## Demo
-![HomePage Gif](https://github.com/C-Dev66/RSVPGuestbookChatApp/blob/main/screenshots/DemoGif.gif)
 
+'Need to fix Google Maps SDK'
