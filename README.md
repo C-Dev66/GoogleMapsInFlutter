@@ -1,4 +1,4 @@
-<img src=""https://github.com/C-Dev66/GoogleMapsInFlutter/blob/main/screenshots/GoogleMapsAPI.png alt="GoogleMapsAPI"/>
+<img src="https://github.com/C-Dev66/GoogleMapsInFlutter/blob/main/screenshots/GoogleMapsAPI.png" alt="GoogleMapsAPI"/>
 
 # GoogleMapsInFlutter
 
